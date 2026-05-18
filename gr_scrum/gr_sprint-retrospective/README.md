@@ -8,9 +8,9 @@ Esta pasta contém os registros das retrospectivas realizadas ao final de cada s
 
 | Arquivo | Sprint | Status |
 |---------|--------|--------|
-| `is_sprint-1-retrospective.md` | Sprint 1 | ✅ Realizada |
-| `is_sprint-2-retrospective.md` | Sprint 2 | ✅ Realizada |
-| `is_sprint-3-retrospective.md` | Sprint 3 | ✅ Realizada |
+| `gr_sprint-1-retrospective.md` | Sprint 1 | ✅ Realizada |
+| `gr_sprint-2-retrospective.md` | Sprint 2 | ✅ Realizada |
+| `gr_sprint-3-retrospective.md` | Sprint 3 | ✅ Realizada |
 
 ---
 
