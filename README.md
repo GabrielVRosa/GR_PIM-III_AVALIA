@@ -1,6 +1,6 @@
 
 <h1 align="center">
-  <img src="./gr_docs/gr_assets/gr_AVALIA__.svg" alt="Avalia+" width="300"/>
+  <img src="./gr_docs/gr_assets/gr_AVALIA +.svg" alt="Avalia+" width="300"/>
 </h1>
 
 <p align="center">
