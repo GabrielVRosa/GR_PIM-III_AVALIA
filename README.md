@@ -29,12 +29,12 @@ Estudantes do ensino superior enfrentam dificuldades na preparação para avalia
 | PB01 | Autenticação de usuários (login por e-mail e senha) | 🔴 Alta | 🔲 A fazer |
 | PB02 | Cadastro e gerenciamento de usuários (Aluno, Professor, Admin) | 🔴 Alta | 🔲 A fazer |
 | PB03 | Gerenciamento de questões (cadastro, edição, exclusão) | 🔴 Alta | 🔲 A fazer |
-| PB04 | Geração automática de simulados (10, 15 ou 20 questões) | 🔴 Alta | 🔲 A fazer |
-| PB05 | Realização de simulados online | 🔴 Alta | 🔲 A fazer |
-| PB06 | Correção automática de simulados | 🔴 Alta | 🔲 A fazer |
+| PB04 | Geração automática de simulados | 🔴 Alta | ✅ Concluído |
+| PB05 | Realização de simulados | 🔴 Alta | ✅ Concluído |
+| PB06 | Correção automática de simulados | 🔴 Alta | ✅ Concluído |
 | PB07 | Histórico de simulados realizados | 🟡 Média | 🔲 A fazer |
 | PB08 | Relatórios de desempenho individual e por turma | 🟡 Média | 🔲 A fazer |
-| PB09 | Dashboards de desempenho | 🟡 Média | 🔲 A fazer |
+| PB09 | Dashboards de desempenho | 🟡 Média | ✅ Concluído |
 | PB10 | Controle de permissões por perfil de usuário | 🔴 Alta | 🔲 A fazer |
 
 ---
@@ -61,10 +61,10 @@ Sprint 4 ───────────────────────�
 
 | Sprint | Período | Documentação | Vídeo de Entrega |
 |--------|---------|-------------|-----------------|
-| Sprint 1 | Mar/2026 | [📄 Ver docs](./gr_scrum/gr_sprint%20planning/gr_sprint-1-planning.md) | 🔗 Em breve |
-| Sprint 2 | Abr/2026 | [📄 Ver docs](./gr_scrum/gr_sprint%20planning/gr_sprint-2-planning.md) | 🔗 Em breve |
-| Sprint 3 | Abr/2026 | [📄 Ver docs](./gr_scrum/gr_sprint%20planning/gr_sprint-3-planning.md) | 🔗 Em breve |
-| Sprint 4 | Mai/2026 | [📄 Ver docs](./gr_scrum/gr_sprint%20planning/gr_sprint-4-planning.md) | 🔗 Em breve |
+| Sprint 1 | Mar/2026 | [📄 Ver docs](./gr_scrum/gr_sprint-planning/gr_sprint-1-planning.md) | 🔗 Em breve |
+| Sprint 2 | Abr/2026 | [📄 Ver docs](./gr_scrum/gr_sprint-planning/gr_sprint-2-planning.md) | 🔗 Em breve |
+| Sprint 3 | Abr/2026 | [📄 Ver docs](./gr_scrum/gr_sprint-planning/gr_sprint-3-planning.md) | 🔗 Em breve |
+| Sprint 4 | Mai/2026 | [📄 Ver docs](./gr_scrum/gr_sprint-planning/gr_sprint-4-planning.md) | 🔗 Em breve |
 
 ---
 
@@ -84,23 +84,23 @@ Sprint 4 ───────────────────────�
 ## 📁 Estrutura do Projeto
 
 ```
-avalia-plus/
+gr_avalia-plus/
 │
-├── 📁 diagramas/
-│   ├── 📁 banco-de-dados/       # MER, DER, Dicionário de Dados
-│   ├── 📁 fluxo-de-usuario/     # Fluxos por perfil (Aluno, Prof, Admin)
-│   └── 📁 uml/                  # Casos de Uso, Classes, Sequência
+├── 📁 gr_diagramas/
+│   ├── 📁 gr_banco-de-dados/       # MER, DER, Dicionário de Dados
+│   ├── 📁 gr_fluxo-de-usuario/     # Fluxos por perfil (Aluno, Prof, Admin)
+│   └── 📁 gr_uml/                  # Casos de Uso, Classes, Sequência
 │
-├── 📁 docs/                     # Documentação técnica do PIM
+├── 📁 gr_docs/                     # Documentação técnica do PIM
 │
-├── 📁 scrum/
-│   ├── 📁 backlog/              # Backlog consolidado
-│   ├── 📁 product-backlog/      # Product Backlog detalhado
-│   ├── 📁 sprint-backlog/       # Backlogs por sprint
-│   ├── 📁 sprint-planning/      # Planejamentos de sprint
-│   ├── 📁 sprint-retrospective/ # Retrospectivas
-│   ├── 📁 sprint-review/        # Reviews de entrega
-│   └── 📁 dailys/               # Registros das dailys por sprint
+├── 📁 gr_scrum/
+│   ├── 📁 gr_backlog/              # Backlog consolidado
+│   ├── 📁 gr_product-backlog/      # Product Backlog detalhado
+│   ├── 📁 gr_sprint-backlog/       # Backlogs por sprint
+│   ├── 📁 gr_sprint-planning/      # Planejamentos de sprint
+│   ├── 📁 gr_sprint-retrospective/ # Retrospectivas
+│   ├── 📁 gr_sprint-review/        # Reviews de entrega
+│   └── 📁 gr_dailys/               # Registros das dailys por sprint
 │
 └── 📄 README.md
 ```
@@ -139,34 +139,37 @@ Acesse a pasta [`/gr_docs`](./gr_docs/) para consultar toda a documentação té
 ## 👥 Equipe
 
 <table align="center">
-  <tr> 
+  <tr>
     <td align="center">
       <img src="./gr_docs/gr_assets/gr_Gabriel.jpeg" width="120px" style="border-radius: 50%;" alt="Gabriel"/><br/>
       <b>Gabriel Vinicius Rosa Pereira</b><br/>
-      Desenvolvedor / Diagramas<br/>
+      Desenvolvedor Frontend<br/>
+      <sub>HTML · CSS · JavaScript</sub><br/><br/>
       <a href="https://github.com/GabrielVRosa">GitHub</a> · <a href="https://www.linkedin.com/in/gabriel-vinicius-6a6059352/">LinkedIn</a>
     </td>
     <td align="center">
       <img src="./gr_docs/gr_assets/gr_Isabella.jpeg" width="120px" style="border-radius: 50%;" alt="Isabella"/><br/>
       <b>Isabella Santos Leal</b><br/>
-      Scrum Master / Backend<br/>
+      Scrum Master · Banco de Dados · Protótipo<br/>
+      <sub>SQL Server · Figma</sub><br/><br/>
       <a href="https://github.com/IsabellaLeal06">GitHub</a> · <a href="https://www.linkedin.com/in/isabella-santos-1148b02b9/">LinkedIn</a>
     </td>
     <td align="center">
       <img src="./gr_docs/gr_assets/gr_Leticia.jpeg" width="120px" style="border-radius: 50%;" alt="Letícia"/><br/>
       <b>Letícia Aparecida Santos Mota</b><br/>
-      Desenvolvedora / BD<br/>
+      Desenvolvedora Backend<br/>
+      <sub>C# · Diagrama de Classes</sub><br/><br/>
       <a href="https://github.com/Jmclemota">GitHub</a> · <a href="https://www.linkedin.com/in/let%C3%ADcia-aparecida-a465b7313/">LinkedIn</a>
     </td>
     <td align="center">
       <img src="./gr_docs/gr_assets/gr_Maria.jpeg" width="120px" style="border-radius: 50%;" alt="Maria Fernanda"/><br/>
       <b>Maria Fernanda de Assis</b><br/>
-      Documentação / UML<br/>
-      <a href="https://github.com/mafeassis">GitHub</a> · <a href="https://www.linkedin.com/in/maria-fernanda-de-assis-1a1414252/?skipRedirect=true">LinkedIn</a>
+      Product Owner · Documentação · Diagramas UML<br/>
+      <sub>UML · Casos de Uso · Sequência</sub><br/><br/>
+      <a href="https://github.com/mafeassis">GitHub</a> · <a href="https://www.linkedin.com/in/maria-fernanda-de-assis-1a1414252/">LinkedIn</a>
     </td>
   </tr>
 </table>
-
 ---
 
 
